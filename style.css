@@ -51,11 +51,11 @@ body {
 
 .start-row {
     margin: auto;
-    width: 120px;
+    width: 240px;
     height: 43px;
     font-family: 'Work Sans';
     background-color: #eb6536;
-    padding-top: 18px;
+    padding: 18px;
     font-size: 18px;
     text-align: center;
     color: #010165;
