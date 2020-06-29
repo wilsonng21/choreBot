@@ -1,6 +1,11 @@
 let doorImage1 = document.getElementById('door1')
 let doorImage2 = document.getElementById('door2')
 let doorImage3 = document.getElementById('door3')
+const numClosedDoors = 3
+
+const randomChoreDoorGenerator = () => {
+    let choredoor = Math.floor(Math.random() * numClosedDoors)
+}
 
 doorImage1.onclick = () => {
     doorImage1.src = botDoorPath
